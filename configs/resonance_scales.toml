@@ -1,0 +1,34 @@
+[[scale]]
+id = "PHI"
+name = "Золотое сечение"
+category = "mathematical"
+value = 1.61803398875
+unit = "ratio"
+
+[[scale]]
+id = "SCHUMANN_BASE"
+name = "Основной резонанс Шумана"
+category = "physical"
+value = 7.83
+unit = "Hz"
+
+[[scale]]
+id = "SCHUMANN_H2"
+name = "Вторая гармоника Шумана"
+category = "physical"
+value = 14.3
+unit = "Hz"
+
+[[scale]]
+id = "SCHUMANN_H3"
+name = "Третья гармоника Шумана"
+category = "physical"
+value = 20.8
+unit = "Hz"
+
+[[scale]]
+id = "HARMONIC_2_3"
+name = "Гармоника 2:3"
+category = "mathematical"
+value = 0.6666667
+unit = "ratio"
