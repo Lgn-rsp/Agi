@@ -1,0 +1,43 @@
+# ─── runtime data ───────────────────────────────────────────────────────────
+state/
+logs/
+data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ─── secrets (defensive — none in code, but never let them slip in) ────────
+*.env
+.env*
+*.sec
+*.key
+*.pem
+*.bin
+keys/
+secrets/
+
+# ─── OS / editor ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ─── backups ───────────────────────────────────────────────────────────────
+*.bak
+*.bak.*
+*.old
+*.~*
+*.orig
+
+# ─── temp ──────────────────────────────────────────────────────────────────
+/tmp/
+*.tmp
+.pytest_cache/
+
+# ─── compiled C extensions (rebuild from .c) ────────────────────────────────
+*.so
+*.dylib
+*.dll
